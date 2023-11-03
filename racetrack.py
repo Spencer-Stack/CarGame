@@ -3,8 +3,7 @@ import pygame
 class RaceTrack:
     def __init__(self):
         self.track_segments = [
-            (100, 100), (400, 100), (600, 150), (650, 300), (600, 450),
-            (400, 500), (200, 450), (100, 300)
+            (200, 300), (700, 200), (900, 300), (1000, 500), (950, 600), (500, 550), (300, 400)
         ]
         self.closed = True  # Set to True if the track is closed (last point connects to the first)
         self.color = (0, 0, 0)  # Track color
